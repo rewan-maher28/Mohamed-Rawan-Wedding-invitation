@@ -39,7 +39,6 @@ body{
     overflow:hidden;
     position:relative;
 }
-
 .cover:before,.cover:after{
     content:"";
     position:absolute;
@@ -58,7 +57,16 @@ body{
     border:1px solid #d9bd8c;
     border-radius:30%;
     padding:48px 22px 44px;
-    background:linear-gradient(145deg,#5d4739dd,#33251fdd);
+
+   
+    background:
+        linear-gradient(rgba(40,25,15,0.25),rgba(40,25,15,0.25)),
+        url('./images/cover.jpg.jpeg');
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     box-shadow:0 20px 70px #160d09aa;
     position:relative;
     outline:1px solid #d9bd8c66;
